@@ -1,6 +1,6 @@
 name: ClawCloud 自动登录保活
 
-于:
+on:
   schedule:
     - cron: '0 6 */20 * *'  # UTC 6:00，每20天运行
   workflow_dispatch:
